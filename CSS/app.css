@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.cloud-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+#clouds{
+    padding: 15px;
+    height: 180px;
+    width: 155px;
+}
+
+#clouds:hover{
+    background-color: rgb(219, 218, 218);
+    cursor: pointer;
+}
+
+.popup-overlay {
+    visibility: hidden;
+    position: absolute;
+    background: #ffffff;
+    border: 3px solid #666666;
+    width: 800px;
+    height: 650px;
+    margin-left: 25%;
+    top: 11%;
+  }
+  
+.popup-overlay.active {
+    visibility: visible;
+    text-align: center;
+  }
+  
+.popup-content {
+    visibility: hidden;
+  }
+  
+.popup-content.active {
+    visibility: visible;
+  }
+
+.popup-image{
+    margin-top: 10%;
+    height: 300px;
+    width: 150px;
+}
+
+h2{
+    color: red;
+}
