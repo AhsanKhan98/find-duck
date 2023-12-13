@@ -1,7 +1,7 @@
 # find-the-penguins-JS
 Find the penguin javascript/jQuery webgame. 
 
-Live Preview : https://assignment.motasimfoad.com/js/findThePenguin/
+Live Preview : https://ahsankhan98.github.io/find-duck/
 
 A JS/jQuery Find the penguin javascript game/webgame having
 
